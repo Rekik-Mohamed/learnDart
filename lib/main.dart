@@ -16,4 +16,20 @@ void main(){
   //! for Null Safety
   String name = stdin.readLineSync()!;
   print('Hello $name');
+  //dart operators
+  //-,+,/,*,%
+  int numberOne = 5;
+  int numberTwo = 15;
+  int result = numberOne+numberTwo;
+  print('Sum = $result');
+  result = numberOne-numberTwo;
+  print('Sustraction = $result');
+  result = numberOne*numberTwo;
+  print('Multiplication = $result');
+  //A value of type 'double' can't be assigned to a variable of type 'int'.
+  //double division = numberOne/numberTwo;
+  double division = numberOne/numberTwo;
+  print('Division = $division');
+  int modulo = numberOne % numberTwo;
+  print('Modulo = $modulo');
 }
